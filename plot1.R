@@ -1,4 +1,4 @@
-## reads data
+## reads data from the working directory (the txt file should be there)
   datos<-read.table("household_power_consumption.txt", header=TRUE, sep=";", na.strings = "?", 
                   stringsAsFactors=FALSE)
   
